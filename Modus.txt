@@ -1,0 +1,9 @@
+Hasil Modus 	 Modus 	
+KelasA		      7
+KelasB		      7
+KelasC		      7
+KelasD		      7
+KelasE		      7
+KelasF		      7
+KelasG		      7
+KelasH		      7

@@ -1,0 +1,9 @@
+Hasil		 Mean 		 Median
+KelasA		8.391304	  8.0
+KelasB		8.115385	  8.5
+KelasC		8.391304	  8.0
+KelasD		8.346154	  8.5
+KelasE		8.391304	  8.0
+KelasF		8.391304	  8.0
+KelasG		8.230769	  8.5
+KelasH		8.321428	  8.5

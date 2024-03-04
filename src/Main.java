@@ -6,9 +6,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String filecsv = "D:\\Java\\data_sekolah.csv";
-        String TxtHasilModus = "D:\\Java\\Modus.txt";
-        String TxtHasilMeandanMedian = "D:\\Java\\Mean&Median.txt";
+        String filecsv = "D:\\Java\\GenerateFileCsv\\data_sekolah.csv";
+        String TxtHasilModus = "D:\\Java\\GenerateFileCsv\\Modus.txt";
+        String TxtHasilMeandanMedian = "D:\\Java\\GenerateFileCsv\\Mean&Median.txt";
         ArrayList<ArrayList<String>> data = new ArrayList<>();
         data = ReadFile.Read(filecsv);
 
@@ -99,7 +99,7 @@ public class Main {
 
         for (int i = 0; i < Modus.size(); i++) {
             ArrayList<String> temp = Data.get(i);
-            Hasil = Hasil + "\n" + temp.get(0) + "\t\t   " + Modus.get(i);
+            Hasil = Hasil + "\n" + temp.get(0) + "\t\t      " + Modus.get(i);
         }
         return Hasil;
     }
